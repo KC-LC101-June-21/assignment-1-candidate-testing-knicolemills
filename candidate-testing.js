@@ -62,7 +62,7 @@ function gradeQuiz(candidateAnswers) {
     console.log("Sorry, try again.")
   }
   console.log(`Final score: ${finalGrade}% \n ${grade} / ${questions.length} answers were correct.`);
-  return `${finalGrade}%`;
+  return finalGrade;
 }
 
 function runProgram() {
